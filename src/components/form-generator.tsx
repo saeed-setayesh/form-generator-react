@@ -23,7 +23,7 @@ export interface FormFields {
 
 interface Props {
   formFields: FormFields;
-  onSubmit: (formData: any) => void;
+  onSubmit: (formData: FormFields) => void;
   preFileds:FormFields;
 }
 
